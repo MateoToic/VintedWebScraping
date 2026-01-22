@@ -5,6 +5,8 @@ Korištena su dva pristupa:
 2) API scraping
 Prikupljeni podaci će se kasnije koristiti u drugom projektu u kojem će se nad njima provoditi razni algoritmi strojnog učenja u svrhu predikcije isplativosti prodaje pojedinih artikala. Podaci, odnosno pristup njihovom dobivanju, primarno su fokusirani na tenisice, no projekt je dizajniran skalabilno, što omogućuje jednostavnu prilagodbu za prikupljanje podataka o drugim vrstama artikala.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 1) HTML scraping uz Playwright
 Scraping se provodi simulirajući stvarnog korisnika koji navigira kroz web stranicu pomoću Playwrighta.
 Renderira se svaka web stranica, čita podatke iz HTML DOM-a te se omogućuje interakcija sa stranicom.
@@ -18,7 +20,7 @@ Prikupljeni podaci:
 - Broj favorita
 - Veličina
 
---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 
 2) API scraping
 Umjesto parsiranja samog HTML-a, koriste se interni API pozivi koje frontend poziva u pozadini.
