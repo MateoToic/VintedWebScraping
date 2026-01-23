@@ -7,7 +7,8 @@ Prikupljeni podaci će se kasnije koristiti u drugom projektu u kojem će se nad
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1) HTML scraping uz Playwright
+1) HTML scraping uz Playwright:
+
 Scraping se provodi simulirajući stvarnog korisnika koji navigira kroz web stranicu pomoću Playwrighta.
 Renderira se svaka web stranica, čita podatke iz HTML DOM-a te se omogućuje interakcija sa stranicom.
 
@@ -22,6 +23,7 @@ Prikupljeni podaci:
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-2) API scraping
+2) API scraping:
+
 Umjesto parsiranja samog HTML-a, koriste se interni API pozivi koje frontend poziva u pozadini.
 Za analizu i testiranje internih API poziva korišten je alat Insomnia, koji je omogućio jednostavan pregled HTTP zahtjeva i odgovora te lakše razumijevanje strukture podataka koje frontend koristi.
